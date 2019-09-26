@@ -1,0 +1,74 @@
+*{box-sizing: border-box;}
+
+
+
+ul {list-style-type: none;}
+body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bolder; }
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    margin: 0%;
+    background:#445c3c;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li { 
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 3.5px;
+}
+
+.month .prev {
+    float: left;
+    padding: 20px;
+
+}
+
+.month .next {
+    float: right;
+    padding: 20px;
+}
+
+.weekdays {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.weekdays li{
+    display: inline-block;
+width: 13.6%;
+text-align: center;
+color: #445c3c;
+}
+
+.days {
+    background:#c9d99e;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    width: 13.6%;
+    text-align: center;
+    display: inline-block;
+    color:#445c3c;
+    margin-bottom: 5px;
+    font-size:12px;
+   }
+
+   /*this makes only the text inside change color*/
+   .days li .active {
+    padding: 8px;
+    background: #445c3c;
+    color:rgb(245, 208, 208) !important
+  }
