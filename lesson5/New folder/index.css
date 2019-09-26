@@ -1,0 +1,20 @@
+.clearfix{
+    clear: both
+}
+
+.calender-title{
+    background: red;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.calender-title-item{
+
+float: left;
+width: 100px;
+background: yellow;
+}
+.days{
+    float: left;
+    width: 150px;
+}

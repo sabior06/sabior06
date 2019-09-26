@@ -1,0 +1,24 @@
+/*working with text*/
+
+
+.article{
+    text-transform: uppercase;
+
+    white-space: pre-wrap;
+/*Shorthand property for the 'white-space-collapsing' and 'text-wrap' properties.
+
+Syntax: normal | pre | nowrap | pre-wrap | pre-line*/
+
+word-break: break-all;
+
+/*Specifies line break opportunities for non-CJK scripts.
+
+Syntax: normal | break-all | keep-all | break-word*/
+
+text-align: justify;
+text-align-last: justify;
+
+
+
+}
+
