@@ -1,0 +1,81 @@
+.background{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    
+}
+
+.image2{
+    position: absolute;
+    bottom:400px;
+    right: 100px;
+ 
+
+
+}
+
+.image3{
+    position: absolute;
+    bottom: -100px;
+    left: 400px;
+}
+
+.image4{
+    position: absolute;
+    bottom: -375px;
+    left: 760px;
+}
+
+.image5{
+    position: absolute;
+    bottom: -200px;
+    left: 10px;
+
+}
+
+.image6{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+   
+}
+
+.image7{
+ left:0px;
+    position: absolute;
+bottom: 60px;
+z-index: 1;
+height: 150%;
+
+}
+
+.image8{
+    position: relative;
+    z-index: auto;
+    right: -700px;
+    top: 550px;
+    
+}
+
+
+.image9{
+    position: relative;
+    z-index: 1;
+    top: 25px
+}
+
+.image10{
+    position: absolute;
+    bottom: -120px;
+    left: 760px;
+
+}
+
+.image11{
+    position: absolute;
+    position: relative;
+
+    bottom:700px;
+    right: -900px;
+}
