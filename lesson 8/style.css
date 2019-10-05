@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+@font-face {
+    font-family: 'elisabethischebook-italic';
+    src: url('11807-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.text2{
+    font-family: elisabethischebook;
+    font-weight: normal;
+    font-size: 40px;
+
+}
+
+.selectors h1{
+
+}
+
+.selectors > b{
+    color: red;
+}
+
+
+h1 + p{
+    color: blue;
+}
+
+h1 ~ p{
+    text-decoration: underline;
+}
+[href="http://google.com.ua"]{
+    font-size: 40px;
+  ;
+}
+/* [href] is used to give edit elements with links*/
+
+
+[class~="google"]{
+    /**/
+color:violet;
+
+}
+
+
+[class |="google"]{
+
+}
+
+[ href^="http://"]{
+
+}
+
+[href$="com.ua"]{
+}
+
+
+[href*="le.com"]{
+
+}
+
+.google:focus{
+    background: red;
+}
+
+p:not([class="text"]){
+    text-transform: uppercase;
+}
+
+.list li:nth-child(odd){
+    /* this is made of odd and even*/
+    text-decoration: underline;
+}
+
+.list li:nth-child(3n){
+    color: blue;
+
+    /*
+    0= 3*0+2=2
+     1= 3*1+2=5
+    2= 3*2+2=8
+    :nth-last-child()
+
+    :first-child - only for the first element
+    :last-child - last element
+    :only-child  
+    :empty choose element that has no */
+                
+}
+
+.list li:nth-of-type(odd){
+    text-transform: uppercase;
+}
+
+/* 
+:first-of-type
+:last-of-type
+:nth-last-of-type() 
+*/
+
