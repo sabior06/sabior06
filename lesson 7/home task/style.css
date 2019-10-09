@@ -1,12 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+
+
+
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0px 0px 1px  0px;
     padding: 0;
-    background-color:#394a6d;
+    background-color:#70416d;
     overflow: hidden;   
     width:1024px;
     position: absolute;
-  }
+ 
+}
+
+@font-face{
+    font-family: Chalet-ParisNineteenEighty;
+    src:(16763.otf);
+}
+
+    
+  .head{
+    list-style-type: none;
+    padding: 25px;
+    background-color:#110c3f;
+    overflow: hidden;   
+    width:1024px;
+    margin: 0px;
+     }
+ 
+ 
+     .head a{
+        font-family:Chalet-ParisNineteenEighty;
+        margin: -20px;
+       color: white;
+        text-align: right;
+        padding: 25px;
+        text-decoration: none;
+        text-transform: capitalize;
+        word-spacing: 5px;
+        }
 
   li{
       float: left;
@@ -14,16 +47,20 @@ ul {
   }
 
   li a {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: 100px;
+    font-family:Chalet-ParisNineteenEighty;
+    width: 120px;
     display: block;
     color: white;
     text-align: center;
     padding: 20px;
     text-decoration: none;
-   
-  
-  }
+    font-size:20px;
+    font-weight: bold;
+    letter-spacing:2px;
+    border: 2px solid rgb(247, 243, 243);
+    border-radius: 5px;
+    
+}
 
   .call{
       z-index:3;
@@ -41,15 +78,136 @@ ul {
     right:100px ;
     top: 22px;
     color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:Chalet-ParisNineteenEighty;
     
 }
 
-p{
-    float: left;
-    position: relative;
-    top: 100px;
-    width: 1024px;
-    text-align: justify;
+h1{
+    text-align: center;
+    color:#f8d301;
+    text-shadow: 1px 1px rgb(21, 22, 24);
+    line-height:40px;
+}
 
+
+
+
+main{
+    background: #e4f2f0;
+    position:absolute;
+    z-index: 3;
+    top: 150px;
+    width: 1024px;
+   
+    
+
+}
+
+
+
+.content {
+    float: right;
+    text-align: left;
+    padding: 200px;
+    margin-top:-180px;
+    margin-bottom: 150px;
+    margin-right: -150px;
+    margin-left: 1500px;
+    font-style: normal;
+    font-family: Chalet-ParisNineteenEighty;
+    line-height:25px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.image1{
+    float: right;
+    margin-top: 5px;
+}
+
+ul li .column{
+    background: red;
+}
+
+.column{
+    font-family: Chalet-ParisNineteenEighty;
+    list-style-type: none;
+    width: 300px;
+    height: 770px;
+    margin-top: 78px;
+    position: absolute;
+    margin: 50x;
+    background: #70416d;
+    float: right;
+    
+  }
+
+
+
+b li{
+    color: black;
+    width: 250px;
+    margin-left:12px;
+    margin-top: 50px;
+    text-align: auto;
+  background:#e4f2f0;
+  border: 1px solid rgb(177, 168, 168);
+  padding: 10px;
+  
+  border-radius: 4px;
+ 
+}
+   
+   
+b li:hover{
+    background-color: #99d8d0;
+}
+
+
+
+.footer a{
+    position:absolute;
+    z-index: 5;
+    bottom: -20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color:#6d0c74;
+    overflow: auto;   
+    width: 984px;
+    margin: 0px;
+}
+
+.image3{
+    position: absolute;
+    z-index: 6;
+    bottom: -200px;
+    border-radius: 100;
+    left: 50px;
+
+}
+
+.setting{
+    position: absolute;
+    z-index:9;
+    right:90px;
+    top:80px;
+}
+
+.instgram{ 
+    position: absolute;
+    z-index:9;
+    right:40px;
+    top:80px;
+}
+
+.image22{
+    position:absolute;
+    z-index: 8;
+    bottom:50px
+}
+
+.width{
+    max-width: 600px;
+    
 }
