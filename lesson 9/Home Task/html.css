@@ -1,0 +1,42 @@
+
+.news{
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid black;
+   
+}
+
+
+.news th{
+    padding: 20px;
+    border: 3px solid black;
+    
+}
+
+
+.news td{
+    padding: 10px;
+}
+
+.news td{
+    padding-left: 10px;
+    
+}
+
+
+.news tbody .active{
+  border-right-color: white;  
+  
+}
+
+.news tbody .active1{
+    border-right-color: white;
+}
+
+.news tbody .active2{
+    border-right-color: white;
+}
+
+.news tfoot .total{
+    border-right-color: white;
+}
