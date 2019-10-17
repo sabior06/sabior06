@@ -3,6 +3,8 @@
     border-collapse: collapse;
     width: 100%;
     border: 3px solid black;
+    margin:5px , 10px , 5px , 5px;
+    
    
 }
 
@@ -15,7 +17,10 @@
 
 
 .news td{
-    padding: 10px;
+    padding: 10px ;
+    
+
+    
 }
 
 .news td{
