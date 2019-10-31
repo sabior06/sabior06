@@ -1,0 +1,105 @@
+.box{
+    height: 600px;
+    display: flex;
+    flex-direction:column;
+  
+    flex-wrap: wrap;
+
+    
+    flex-flow: row wrap;
+    /* 
+    flex-flow: dirction wrap;
+    */
+
+    justify-content: flex-end;
+
+    /*
+    flex-start
+    flex-end
+    center
+    space-between
+    space-around
+    space-evenly
+    */
+
+    justify-content: space-around;
+
+    align-content: stretch;
+    /* stretch
+       flex-start
+       flex-end
+       center
+       space-between
+       space-evenly
+       */
+
+       align-items: stretch;
+       /*
+       stretch - the element is stretched filling the string completely
+       flex-start - the element is pressed to the beginning of the line
+       flex-end - the element is pressed to the end of the line
+       center - the element is centered on the line
+       baseline - the element is aligned to the baseline of the text
+       */
+}
+
+
+.box div:nth-child(1){
+    background: red;
+    flex-grow: 1;
+
+    flex: 50%;
+
+    flex: 0 1 auto;
+
+    align-self: flex-start;
+
+    /*
+    Suppose a container has a width of 600px and contains two elements, each of which 
+    has a width of 300px - flex-basis:300px;. Those. two elements completely fill the container. 
+    We indicate the first element flex-shrink: 2;, and the second flex-shrink: 1;.
+     Now reduce the width of the container by 300px, i.e. items must be compressed at 
+     300px to fit inside the container. They will be compressed in a ratio of 2: 1, i.e.
+      the first block will shrink at 200px,
+     and the second at 100px and the new element sizes will become 100px and 200px.
+     
+     
+     flex-basis-Sets the base width of the element - the width before the other conditions affecting
+      the width of the element are calculated. The value can be specified in px, em, rem,%,
+       vw, vh , etc. The resulting width will depend on the base width and the flex-grow, 
+       flex-shrink values ​​and content inside the block. With auto, 
+     the element gets the base width relative to the content inside it.*/
+     
+     
+}
+
+.box div:nth-child(2){
+    background: blue;
+
+    order: 5;
+}
+
+.box div:nth-child(3){
+    background:violet;
+    order: 4;
+}
+
+.box div:nth-child(4){
+    background: yellow;
+}
+
+.box div:nth-child(5){
+    background:indianred;
+}
+
+.box div:nth-child(6){
+    background: chocolate;
+}
+
+
+
+.box div{
+   /* width: 400px;
+    height: 300px;*/
+    flex-grow: 1;
+}
