@@ -1,0 +1,11 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 200px 300px;
+    grid-template-columns: minmax(100px, 1fr) fit-content(50%) auto 1fr;
+    grid-template-columns: repeat(4, 200px);
+}
+
+.grid-container div{
+    border: 1px solid #000000;
+
+}

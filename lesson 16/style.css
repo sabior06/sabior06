@@ -1,0 +1,108 @@
+.box{
+    width: 300px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(.21,.73,.92,.29);
+    transition-delay: 2s;
+
+    /*
+    transition-property:    Specifies the name of the CSS property the transition effect is for
+    transition-duration:	Specifies how many seconds or milliseconds a transition effect takes to complete.
+    transition-timing-function: 	Specifies the speed curve of the transition effect
+    transition-delay:	Specifies a delay (in seconds) for the transition effect
+    transition:	A shorthand property for setting the four transition properties into a single property
+
+    */
+}
+
+.box:hover{
+    width: 500px;
+
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    transform: translate(100px, 200px);
+
+    /*
+    translatex(100px) for x axis and 
+    translatey(100) for y axis
+    */
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background: purple;
+    transform: scale(0.5, 0.5);
+}
+
+.box4{
+    width: 100px;
+    height: 100px;
+    background: green;
+    transition: transform 2s;
+    transform-origin:30% 30% ;
+    /*
+    transform-origin: Establishes the origin of transformation for an element.*/
+
+}
+
+.box4:hover{
+    transform: rotate(360deg);
+    /*
+    the rotation is based on the degrees*/
+}
+
+.box2:hover{
+    transform: skew(-20deg, 20deg);
+    transition: transform 2s;
+
+    /*
+    skew contains both the skew x and skew y
+    */
+}
+
+.box5{
+    font-size: 60px;
+    font-weight: bold;
+    animation: shadow 2s infinite ease-in-out;
+
+    position: absolute;
+
+    /*
+    @keyframes-	Specifies the animation code
+    animation-	A shorthand property for setting all the animation properties/
+    animation-delay	- Specifies a delay for the start of an animation.
+    animation-direction:	-Specifies whether an animation should be played forwards, backwards 
+    or in alternate cycles.
+    animation-duration:	Specifies how long time an animation should take to complete one cycle.
+    animation-fill-mode:-	Specifies a style for the element when the animation is not playing 
+    (before it starts, after it ends, or both).
+    animation-iteration-count:-	Specifies the number of times an animation should be played.
+    animation-name:-Specifies the name of the @keyframes animation.
+    animation-play-state:-	Specifies whether the animation is running or paused
+    animation-timing-function:-	Specifies the speed curve of the animation
+    */
+
+}
+
+@keyframes shadow{
+    0%{
+        text-shadow: 0 0 3px black;
+        left: 0;
+    }
+    50%{
+        text-shadow: 0 0 30px black;
+        left: 300px;
+    }
+    100%{
+        text-shadow: 0 0 3px black;
+        left: 0;
+    }
+}
+

@@ -1,0 +1,29 @@
+header{
+    background: blue;
+    grid-area: head;
+}
+
+footer{
+    background: blue;
+    grid-area: foot;
+}
+
+aside{
+    background: green;
+    grid-area: sidebar;
+}
+
+main{
+    background: red;
+    grid-area: content;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 60px minmax(500px, 1fr) 100px;
+
+    grid-template-areas: "head head"
+                          "sidebar content"
+                          "foot foot";
+}

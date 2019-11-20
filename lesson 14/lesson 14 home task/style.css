@@ -3,20 +3,22 @@ body{
 }
 
 
+
+
+
+    
 main{
     font-family: 'Open Sans', sans-serif;
     max-width: 1021px;
     margin: 25px auto;
     height: 1800px;
     margin-top: 70px;
-    
-    
 }
 
 
 .header-menu-image{
-    float: left;
-    margin-right:10px;
+ flex-wrap: wrap;
+  
 }
 
 .header-menu a{
@@ -24,6 +26,7 @@ main{
     font-size: 12px;
     padding:2px;
     text-decoration: none;
+    flex: content;
 }
 
 .header-dmt{  
@@ -51,7 +54,7 @@ main{
 }
 
 .header-search{
-    float:right;
+    display: flex;
     margin-top:-80px;
     display: block;
     margin-right:25px;
@@ -61,7 +64,7 @@ main{
 
 .image-search{
     margin-top: -85px;
-    float:right;
+   display: flex;
     
 
 }
@@ -69,7 +72,8 @@ main{
 .home-page{
     height: 500px;
     background: url(img/VectorSmartObject.png) no-repeat top center;
-   padding: 23px;
+    padding: 23px;
+    margin-bottom: -12px;
    
 }
 
@@ -91,7 +95,7 @@ main{
     color: #ffffff;
     font-size: 72px;
     margin-top:31px;
-    margin-bottom: auto;
+    margin-bottom:auto;
     margin-right: 41px
 }
 
@@ -105,7 +109,7 @@ main{
 
 .read-more1 a{
     border: 2px solid #ffe18f;
-    float:left;
+    display: flex;
     text-align: right;
     padding: 5px;
     color: #ffffff;
@@ -118,7 +122,7 @@ main{
 
 .read-more a{
     border: 2px solid #ffe18f;
-    float: left;
+    display: flex;
     text-align: center;
     padding:15px;
     color: #ffffff;
@@ -161,7 +165,7 @@ h5{
 
 
 .subscribe-page{
-    float: right;
+  display: flex;
     background: url(img/Shape3.png) no-repeat top center;
     width: 380px;
     height:481px;
@@ -225,7 +229,7 @@ h5{
 
 .cameras-page{
     background: url(img/VectorSmartObject10.png)no-repeat top center;
-    float: left;
+    display: flex;
     height:421;
     width: 258px;
     margin-top: 22px;
@@ -267,7 +271,7 @@ h5{
 
 .sound-page{
     background: url(img/VectorSmartObject4.png)no-repeat top center;
-    float: left;
+   display: flex;
     height:421px;
     width: 258px;
     margin-top: 22px;
@@ -299,11 +303,11 @@ h5{
 
 .cameras2-page{
     background: url(img/camera.png) no-repeat top center;
-    float:left;
+    
     height:420px;
     width: 460px;
-    margin-top: 22px;
-    margin-left: 22px;
+    margin-left: 550px;
+    position: absolute;
 }
 
 
@@ -311,26 +315,12 @@ h5{
 .footer-copyright,
 .footer-facebook-logo,
 .footer-twitter-logo{
-    float: left;
-   
+    display: flex;
+    position: absolute;
+    display: inline;
+    width: 200px;
 }
 
-.footer-copyright{
-    color: #898691;
-    margin-left:240px;
-    margin-top:-120px;
-}
-
-.footer-facebook-logo{
-    margin-left:1130px;
-    margin-top:-120px;
-}
-
-
-.footer-twitter-logo{
-    margin-left:1230px;
-    margin-top:-120px;
-}
 
 
 
